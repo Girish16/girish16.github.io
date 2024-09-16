@@ -1,11 +1,11 @@
-/* Reset some default styles */
+/* Basic Reset */
 body, h1, h2, h3, p, ul, li, a, form, input, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global styles */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -61,7 +61,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.experience-item, .education-item {
+.experience-item, .education-item, .project-item {
     margin-bottom: 20px;
 }
 
@@ -83,31 +83,6 @@ button {
 button:hover {
     background-color: #0056b3;
     transform: scale(1.05);
-}
-
-.swiper-container {
-    width: 100%;
-    height: 400px;
-    margin: 0 auto;
-}
-
-.swiper-slide {
-    position: relative;
-}
-
-.swiper-slide img {
-    width: 100%;
-    height: auto;
-}
-
-.slide-info {
-    position: absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
 }
 
 footer {
