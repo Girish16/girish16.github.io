@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website | Girish Kalyan Jalasutram</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Girish Kalyan Jalasutram</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Girish">
+        </div>
+        <div class="home-content">
+            <h1>Hi, I'm <span>Girish Kalyan Jalasutram</span></h1>
+            <h3>I'm a <span class="typewriter-text"></span></h3>
+            <p>I am a Machine Learning Engineer with expertise in Python, Azure, and AI solutions. I specialize in developing machine learning and deep learning models and deploying them at scale using modern cloud platforms. Additionally, I have hands-on experience in leading mixed reality projects for sports analysis and object classification.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/your-profile"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/your-username"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/your-profile"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com/your-profile"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-header">
+            <p class="section__text__p1">Technical Expertise</p>
+            <h1 class="title">Skills</h1>
+        </div>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, Matlab, SQL, NoSQL</li>
+            <li><strong>Machine Learning Libraries:</strong> Pandas, Scikit-Learn, NumPy, Seaborn</li>
+            <li><strong>Tools & Frameworks:</strong> TensorFlow, PyTorch, Docker, Flask</li>
+            <li><strong>Cloud Platforms:</strong> Azure (Data Factory, Machine Learning, Synapse, Kubernetes)</li>
+            <li><strong>Databases:</strong> Microsoft SQL Server, Azure Cosmos DB</li>
+            <li><strong>Technologies:</strong> Data Analytics, Deep Learning, Image Analysis</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <div class="section-header">
+            <p class="section__text__p1">My Academic Background</p>
+            <h1 class="title">Education</h1>
+        </div>
+        <div class="education-details">
+            <h2>Master’s in Business Administration</h2>
+            <p><strong>Trinity Western University, Canada</strong></p>
+            <p>Specialized in International Business, Managerial Economics, and Finance.</p>
+
+            <h2>Master of Science in Artificial Intelligence and Machine Learning</h2>
+            <p><strong>University of Birmingham, United Kingdom</strong></p>
+            <p>Focused on AI and ML, Intelligent Robotics, Computer Vision, and Data Analysis.</p>
+
+            <h2>Bachelor of Technology in Electronics and Communication Engineering</h2>
+            <p><strong>National Institute of Technology, Surat, India</strong></p>
+            <p>Explored Machine Learning applications in diabetes prediction and robotics.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="section-header">
+            <p class="section__text__p1">My Professional Journey</p>
+            <h1 class="title">Experience</h1>
+        </div>
+        <div class="experience-details-container">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Machine Learning Engineer</h2>
+                <p><strong>Kagool (Microsoft Partner), UK</strong></p>
+                <p>Developed and delivered machine learning solutions on Azure, improving model performance by 30% and integrating ML with mixed reality for sports analysis.</p>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Product Owner - Xenial</h2>
+                <p><strong>Kagool, UK</strong></p>
+                <p>Designed a no-code object classification product and deployed mixed reality projects for international events using Hololens-2.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-header">
+            <p class="section__text__p1">Showcasing My Work</p>
+            <h1 class="title">Projects</h1>
+        </div>
+        <div class="projects-container">
+            <div class="project-item">
+                <img src="project1.jpg" alt="Gazed Object Detection">
+                <h3>Gazed Object Detection & Depth Estimation</h3>
+                <p>Developed a novel technique for autonomous vehicles using mono-depth models for depth estimation and Mask-RCNN for object detection. Achieved latency of 10 fps at 720p resolution.</p>
+                <a href="https://github.com/your-username/project-one" class="btn btn-color-2">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <img src="project2.jpg" alt="Muscle Force Prediction">
+                <h3>Muscle Force Prediction using Deep Learning</h3>
+                <p>Created a Convolution-LSTM model to predict muscle force from ultrasound images, achieving 98% accuracy.</p>
+                <a href="https://github.com/your-username/project-two" class="btn btn-color-2">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-header">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact</h1>
+        </div>
+        <div class="contact-info">
+            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <p><strong>Email:</strong> <a href="mailto:girish.jalasutram@gmail.com">girish.jalasutram@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/your-profile">linkedin.com/in/your-profile</a></p>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
