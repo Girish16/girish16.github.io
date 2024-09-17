@@ -9,6 +9,8 @@ body, h1, h2, h3, p, ul, li, a, form, input, textarea, button {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -35,7 +37,7 @@ nav ul li a {
 }
 
 .hero {
-    background: #555;
+    background: #444;
     color: #fff;
     padding: 50px 0;
 }
@@ -59,10 +61,34 @@ section {
 h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
 }
 
 .experience-item, .education-item, .project-item {
     margin-bottom: 20px;
+}
+
+.company-logo, .university-logo, .project-image {
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+video {
+    max-width: 100%;
+    margin-top: 10px;
 }
 
 ul {
