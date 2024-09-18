@@ -349,6 +349,83 @@ li:hover {
     }
 }
 
+
+/* Experience Section */
+#experience {
+    background-color: #1b1b1b;
+    padding: 5rem 9%;
+    min-height: 100vh;
+}
+
+.experience-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.details-container {
+    background-color: #333;
+    border-radius: 0.8rem;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.details-container h2 {
+    font-size: 2rem;
+    color: #00d1ff;
+    margin-bottom: 1rem;
+}
+
+.details-container p {
+    font-size: 1.4rem;
+    color: #ddd;
+    margin-bottom: 1rem;
+}
+
+.details-container strong {
+    color: #fff;
+}
+
+.details-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+@media (max-width: 995px) {
+    .home {
+        padding: 3rem 5%;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+    .education-details h2, .projects-container h3 {
+        font-size: 2rem;
+    }
+
+    .project-item {
+        max-width: 300px;
+    }
+
+    #experience {
+        padding: 3rem 5%;
+    }
+
+    .details-container {
+        padding: 1.5rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+}
+
 /* Projects Section */
 #projects {
     background-color: #1b1b1b;
