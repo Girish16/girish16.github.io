@@ -3,8 +3,7 @@ var typed = new Typed(".typewriter-text", {
         "Developer",
         "Designer",
         "Freelancer",
-        "Blogger",
-        "Youtuber"
+        "Blogger"
     ],
     typeSpeed: 75,        // Typing speed reduced for smoother effect
     backSpeed: 50,        // Backspacing speed
