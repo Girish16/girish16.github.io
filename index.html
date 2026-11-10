@@ -1,173 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Girish Kalyan Jalasutram’s portfolio in applied machine learning, MLOps, and production banking data systems.">
-    <title>Girish Kalyan Jalasutram | Applied ML &amp; Data Engineering</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Girish Kalyan Jalasutram’s portfolio in applied machine learning, MLOps, and production banking data systems.">
+  <title>Girish Kalyan Jalasutram — Applied ML &amp; Data Systems</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">
-            <img src="atomicleapai_logo.jpg" alt="Logo" />
-        </a>
-        <nav>
-            <a href="#home" class="active">Home</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    
-    <section id="home" class="home">
-        <div class="home-img">
-            <img src="profile-pic.jpg" alt="Girish">
-        </div>
-        <div class="home-content">
-            <h1>Hi, I'm <span>Girish Kalyan Jalasutram</span></h1>
-            <h3><span class="typewriter-text">Applied ML &amp; Data Engineering</span></h3>
-            <p>I’ve built machine learning and data workflows on Azure and now support production banking data systems at BMO through Unisys. My work spans data integration, model evaluation and deployment, and applied AI for computer vision and retrieval.</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/jalasutram-girish-kalyan/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Girish16"><i class="fa-brands fa-github"></i></a>
-                <a href="https://twitter.com/your-profile"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/sonugirishkalyan/"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <a href="#contact" class="btn">Contact me</a>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="section-header">
-            <h1 class="title">Skills</h1>
-        </div>
-        <ul>
-            <li><strong>Programming Languages:</strong> Python, Matlab, SQL, NoSQL</li>
-            <li><strong>Machine Learning Libraries:</strong> Pandas, Scikit-Learn, NumPy, Seaborn</li>
-            <li><strong>Tools & Frameworks:</strong> TensorFlow, PyTorch, Docker, Flask</li>
-            <li><strong>Cloud Platforms:</strong> Azure (Data Factory, Machine Learning, Synapse, Kubernetes)</li>
-            <li><strong>Databases:</strong> Microsoft SQL Server, Azure Cosmos DB</li>
-            <li><strong>Data Engineering:</strong> Databricks, Apache Spark, Apache Kafka, data integration and SQL reconciliation</li>
-            <li><strong>MLOps &amp; Applied AI:</strong> MLflow Tracking and Model Registry, Azure Machine Learning, Hugging Face embeddings, OpenSearch</li>
-            <li><strong>Technologies:</strong> Data Analytics, Deep Learning, Image Analysis</li>
-        </ul>
-    </section>
-
-    <section id="education">
-        <div class="section-header">
-            <h1 class="title">Education</h1>
-        </div>
-        <div class="education-details">
-            <h2>Master’s in Business Administration</h2>
-            <p><strong>Trinity Western University, Canada</strong></p>
-            <p>Specialized in International Business, Managerial Economics, and Finance.</p>
-
-            <h2>Master of Science in Artificial Intelligence and Machine Learning</h2>
-            <p><strong>University of Birmingham, United Kingdom</strong></p>
-            <p>Focused on AI and ML, Intelligent Robotics, Computer Vision, and Data Analysis.</p>
-
-            <h2>Bachelor of Technology in Electronics and Communication Engineering</h2>
-            <p><strong>National Institute of Technology, Surat, India</strong></p>
-            <p>Explored Machine Learning applications in diabetes prediction and robotics.</p>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="section-header">
-            <h1 class="title">Experience</h1>
-        </div>
-        <div class="experience-details-container">
-            <article class="details-container">
-                <h2 class="experience-sub-title">Data Engineering at BMO</h2>
-                <p><strong>Application Support Analyst · Unisys engagement</strong></p>
-                <p><time datetime="2026-07">July 2026</time> – Present</p>
-                <ul class="experience-list">
-                    <li>Support banking data pipelines that synchronize customer and account records across source systems and downstream platforms.</li>
-                    <li>Use SQL to reconcile source and target records and identify missing, duplicate, or incorrectly mapped data.</li>
-                    <li>Trace integration failures across REST APIs, Kafka topics, and message queues using logs and correlation IDs.</li>
-                    <li>Support production releases and data remediation, then verify affected records and confirm downstream processing.</li>
-                </ul>
-            </article>
-            <article class="details-container">
-                <h2 class="experience-sub-title">Freelance Data / ML Engineer</h2>
-                <p><time datetime="2024-12">December 2024</time> – <time datetime="2026-05">May 2026</time></p>
-                <p>Evaluated LLM outputs for coding and analytical tasks, built and reviewed evaluation datasets in Python, and supported data pipeline quality checks.</p>
-            </article>
-            <div class="details-container">
-                <h2 class="experience-sub-title">Machine Learning Engineer</h2>
-                <p><strong>Kagool (Microsoft Partner), UK</strong></p>
-                <p><time datetime="2022-05">May 2022</time> – <time datetime="2024-08">August 2024</time></p>
-                <p>Developed and delivered machine learning solutions on Azure, improving model performance by 30% and integrating ML with mixed reality for sports analysis.</p>
-            </div>
-            <div class="details-container">
-                <h2 class="experience-sub-title">Product Owner - Xenial</h2>
-                <p><strong>Kagool, UK</strong></p>
-                <p>Designed a no-code object classification product and deployed mixed reality projects for international events using Hololens-2.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="section-header">
-            <h1 class="title">Projects</h1>
-        </div>
-        <div class="projects-container">
-            <div class="project-item">
-                <video controls>
-                    <source src="Dept Video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3>Gazed Object Detection & Depth Estimation</h3>
-                <p>Developed a novel technique for autonomous vehicles using mono-depth models for depth estimation and Mask-RCNN for object detection. Achieved latency of 10 fps at 720p resolution.</p>
-                <a href="https://github.com/Girish16/Depth-Estimation" class="btn btn-color-2">View on GitHub</a>
-            </div>
-            <div class="project-item">
-                <img src="anterior tiabilis.jpg" alt="Muscle Force Prediction">
-                <h3>Muscle Force Prediction using Deep Learning</h3>
-                <p>Created a Convolution-LSTM model to predict muscle force from ultrasound images, achieving 98% accuracy.</p>
-                <a href="https://github.com/Girish16/Depth-Estimation" class="btn btn-color-2">View on GitHub</a>
-            </div>
-        </div>
-        <div class="portfolio-notes">
-            <h2>Selected Case Studies</h2>
-            <details class="details-container">
-                <summary>Tracing failures across banking systems</summary>
-                <p>I use SQL to compare records across systems and follow requests through APIs and message queues using logs and correlation IDs. After remediation, I validate the affected records and check that processing has resumed.</p>
-            </details>
-            <details class="details-container">
-                <summary>Retrieval for a RAG application</summary>
-                <p>At Kagool, I implemented retrieval-augmented generation with Hugging Face embeddings and OpenSearch vector search. The retrieval layer finds semantically related passages and passes them to the language model as context.</p>
-            </details>
-            <details class="details-container">
-                <summary>Making model promotion repeatable</summary>
-                <p>At Kagool, I set up MLflow Tracking and Model Registry, then added automated promotion checks for schema compatibility, minimum performance thresholds, and bias screens.</p>
-            </details>
-            <article class="details-container">
-                <h3>Independent research · Classical and quantum ML for phishing detection</h3>
-                <p>A classical RBF-SVM achieved <strong>91.95% test accuracy</strong> after training on 8,844 examples and testing on 2,211 held-out examples.</p>
-                <p>Next, I plan to compare the classical model and a quantum kernel using the same smaller data split and features, with precision, recall, and runtime alongside accuracy.</p>
-            </article>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="section-header">
-            <h1 class="title">Contact</h1>
-        </div>
-        <div class="contact-info">
-            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
-            <p><strong>Email:</strong> <a href="mailto:girish.jalasutram@gmail.com">girish.jalasutram@gmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jalasutram-girish-kalyan/">linkedin.com/in/jalasutram-girish-kalyan</a></p>
-        </div>
-    </section>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js"></script>
+<a class="skip" href="#main">Skip to content</a><header class="header" id="top"><div class="shell header-inner">
+<a href="#top" class="brand" aria-label="Girish Kalyan Jalasutram, home"><span class="brand-mark"><svg aria-hidden="true" viewbox="0 0 24 24" width="15" height="15"><path fill="currentColor" d="M12 0l2.5 9.5L24 12l-9.5 2.5L12 24l-2.5-9.5L0 12l9.5-2.5z"></path></svg></span><span>Girish Kalyan<br>Jalasutram</span></a><nav aria-label="Primary navigation"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#research">Research</a></nav><a href="#contact" class="header-contact">Get in touch <svg aria-hidden="true" viewbox="0 0 20 20" width="18" height="18" fill="none"><path d="M5 15 15 5M6 5h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+</div></header><main id="main"><section class="shell hero" id="home" aria-labelledby="hero-title"><div class="hero-content">
+<p class="eyebrow mono"><span class="status-dot"></span> GIRISH KALYAN JALASUTRAM <span class="hero-country">/ CANADA</span></p>
+<h1 id="hero-title">Machine learning<br>built for <em>production.</em>
+</h1>
+<p class="hero-intro">I’m Girish. I’ve built ML and data workflows on Azure, and I now support production banking systems at BMO. I’m interested in how teams evaluate, deploy, and monitor models they can rely on.</p>
+<div class="hero-actions">
+<a class="button primary" href="#work">Explore selected work <svg aria-hidden="true" viewbox="0 0 20 20" width="18" height="18" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a><a class="text-link" href="#experience">Career timeline <svg aria-hidden="true" viewbox="0 0 20 20" width="18" height="18" fill="none"><path d="M5 15 15 5M6 5h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+</div>
+</div>
+<figure class="map-panel" aria-label="A diagram showing the path from data systems to applied machine learning and operations"><div class="map-top mono">
+<span>FIG. 01</span><span>THE ML LIFECYCLE</span>
+</div>
+<svg class="orbit" viewbox="0 0 520 378" aria-hidden="true"><defs><pattern id="map-grid" width="20" height="20" patternunits="userSpaceOnUse"><path d="M20 0H0v20" fill="none" stroke="#80917b" stroke-opacity=".18"></path></pattern><path id="contour" d="M-182 39C-204-22-177-68-119-74c44-4 56-52 112-54 56-2 56 49 111 46 60-3 108 33 98 85-6 35-51 53-90 60-56 10-53 49-103 52-45 3-66-27-110-29-37-2-67-12-81-47Z"></path></defs><rect x="19" y="17" width="482" height="344" rx="4" fill="url(#map-grid)" stroke="#c6cdbd"></rect><g transform="translate(254 186) rotate(-11)" fill="none" stroke="#6f866d" stroke-width="1"><use href="#contour" opacity=".62"></use><use href="#contour" transform="scale(.87)" opacity=".61"></use><use href="#contour" transform="scale(.74)" opacity=".60"></use><use href="#contour" transform="scale(.61)" opacity=".59"></use><use href="#contour" transform="scale(.48)" opacity=".58"></use><use href="#contour" transform="scale(.35)" opacity=".56"></use><use href="#contour" transform="scale(.22)" opacity=".54"></use><use href="#contour" transform="scale(.11)" opacity=".52"></use></g><path d="M145 143c34-29 66-44 113-44s80 9 103 45c37 58 1 119-67 121-12 0-25 3-35 12" fill="none" stroke="#86543f" stroke-width="2" stroke-dasharray="3 6" stroke-linecap="round"></path><g fill="none" stroke="#526c55" stroke-width="1"><path d="M145 143h-35l-27-26H46M361 144h41l28-31h45M259 277l36 35h180"></path></g><g fill="#f8f6ec" stroke="#365c45" stroke-width="1.5"><circle cx="145" cy="143" r="14"></circle><circle cx="361" cy="144" r="14"></circle><circle cx="259" cy="277" r="14"></circle></g><g class="map-label" fill="#365c45" text-anchor="middle"><text x="145" y="147">1</text><text x="361" y="148">2</text><text x="259" y="281">3</text></g><g class="map-label" fill="#294736"><text x="46" y="107">DATA SYSTEMS</text><text x="475" y="103" text-anchor="end">APPLIED ML</text><text x="475" y="301" text-anchor="end">MLOPS</text></g><g stroke="#607762"><path d="M39 37h13m-6.5-6.5v13M470 341h13m-6.5-6.5v13"></path></g></svg><figcaption class="map-bottom mono"><span><i></i> DATA → MODEL → OPERATIONS</span><span>01 / 01</span></figcaption></figure></section><div class="stack-band" id="skills"><div class="shell stack-inner">
+<p class="mono">TOOLS I WORK WITH</p>
+<ul aria-label="Tools I work with">
+<li>Python</li>
+<li>SQL</li>
+<li>Azure ML</li>
+<li>MLflow</li>
+<li>Spark</li>
+<li>Databricks</li>
+<li>Kafka</li>
+</ul>
+</div></div>
+<section class="shell section work" id="work"><div class="section-heading">
+<p class="eyebrow mono"><span>01</span> / SELECTED WORK</p>
+<h2>From data to <em>deployment.</em>
+</h2>
+</div>
+<p class="section-intro">Three examples from banking operations, applied AI, and the tooling that helps teams ship models.</p>
+<div class="work-grid">
+<article class="project"><div class="project-art">
+<span class="mono">FIG. 02</span><svg aria-hidden="true" viewbox="0 0 260 130" fill="none"><g stroke="#8a907b"><path d="M46 65h168M91 65V30h78v35M91 65v35h78V65" stroke-dasharray="3 5"></path><circle cx="130" cy="65" r="35"></circle><circle cx="130" cy="65" r="49" stroke-dasharray="3 6"></circle></g><g stroke="var(--project-ink, var(--accent))"><rect x="115" y="50" width="30" height="30" rx="6"></rect><path d="M121 65h5l3-7 4 13 3-6h4"></path><circle cx="46" cy="65" r="6"></circle><circle cx="214" cy="65" r="6"></circle><circle cx="91" cy="30" r="3"></circle><circle cx="169" cy="100" r="3"></circle></g></svg>
+</div>
+<div class="project-body">
+<p class="eyebrow mono">PRODUCTION DATA</p>
+<h3>Tracing failures across banking systems</h3>
+<p class="project-summary">Following a data discrepancy from the first alert through APIs, queues, and databases to identify where processing broke down.</p>
+<ul class="tags" aria-label="Technologies">
+<li>SQL</li>
+<li>Message queues</li>
+<li>Production monitoring</li>
+</ul>
+<details class="case-detail"><summary><span class="when-closed">Read case study</span><span class="when-open">Close case study</span><span class="expand-icon" aria-hidden="true"></span></summary><div class="case-content">
+<h4>The problem</h4>
+<p>Customer and transaction data pass through several services. When a downstream record is missing or out of sync, the symptom alone rarely identifies the failed step.</p>
+<h4>My approach</h4>
+<p>I use SQL to compare records across systems, then trace requests and messages with logs and correlation IDs. After remediation, I validate the affected records and check that processing has resumed.</p>
+<p class="flow-caption mono">Illustrative incident workflow</p>
+<ol class="flow">
+<li>Trace the request</li>
+<li>Reconcile records</li>
+<li>Validate the fix</li>
+</ol>
+</div></details>
+</div></article><article class="project"><div class="project-art">
+<span class="mono">FIG. 03</span><svg aria-hidden="true" viewbox="0 0 260 130" fill="none"><g stroke="#8a907b"><path d="m45 48 61-22 60 22-60 23zM45 65l61 22 60-22M45 82l61 22 60-22M166 48l43 17-43 17" stroke-dasharray="4 4"></path><path d="M106 71v33"></path></g><g stroke="var(--project-ink, var(--accent))"><path d="m45 48 61 23 60-23-60-22z"></path><path d="m71 48 35-13 35 13-35 13z"></path><circle cx="209" cy="65" r="11"></circle><path d="M209 60v10m-5-5h10"></path></g></svg>
+</div>
+<div class="project-body">
+<p class="eyebrow mono">APPLIED AI</p>
+<h3>Retrieval for a RAG application</h3>
+<p class="project-summary">Building the retrieval layer that finds relevant source material before a language model generates an answer.</p>
+<ul class="tags" aria-label="Technologies">
+<li>Hugging Face</li>
+<li>OpenSearch</li>
+<li>Vector search</li>
+</ul>
+<details class="case-detail"><summary><span class="when-closed">Read case study</span><span class="when-open">Close case study</span><span class="expand-icon" aria-hidden="true"></span></summary><div class="case-content">
+<h4>The problem</h4>
+<p>A retrieval-augmented application needs a way to find relevant source material even when the query and the document use different words.</p>
+<h4>My approach</h4>
+<p>At Kagool, I implemented a RAG architecture using Hugging Face embeddings and OpenSearch vector search. The retrieval layer searches for semantically related passages and passes them to the model as context.</p>
+<p class="flow-caption mono">Retrieval and generation workflow</p>
+<ol class="flow">
+<li>Embed the query</li>
+<li>Search the index</li>
+<li>Pass relevant context</li>
+</ol>
+</div></details>
+</div></article><article class="project"><div class="project-art">
+<span class="mono">FIG. 04</span><svg aria-hidden="true" viewbox="0 0 260 130" fill="none"><g stroke="#8a907b"><path d="M48 41h164M48 65h164M48 89h164" stroke-dasharray="4 5"></path><circle cx="155" cy="65" r="38" stroke-dasharray="4 5"></circle></g><g stroke="var(--project-ink, var(--accent))"><path d="M60 89h34l27-48h42m-68 48h47l19-24h38"></path><circle cx="60" cy="89" r="5" fill="var(--project-paper, var(--sage))"></circle><circle cx="163" cy="41" r="5" fill="var(--project-paper, var(--sage))"></circle><circle cx="199" cy="65" r="8" fill="var(--project-paper, var(--sage))"></circle><path d="m196 65 2 2 4-4"></path></g></svg>
+</div>
+<div class="project-body">
+<p class="eyebrow mono">MLOPS</p>
+<h3>Making model promotion repeatable</h3>
+<p class="project-summary">Connecting experiment tracking, model versioning, and automated checks so a team can review how a model earned its place in production.</p>
+<ul class="tags" aria-label="Technologies">
+<li>MLflow</li>
+<li>Model Registry</li>
+<li>Azure ML</li>
+</ul>
+<details class="case-detail"><summary><span class="when-closed">Read case study</span><span class="when-open">Close case study</span><span class="expand-icon" aria-hidden="true"></span></summary><div class="case-content">
+<h4>The problem</h4>
+<p>Model candidates are easier to compare when their parameters, evaluation metrics, and artifacts are recorded consistently.</p>
+<h4>My approach</h4>
+<p>At Kagool, I set up MLflow Tracking and Model Registry, then added automated promotion checks for schema compatibility, minimum performance thresholds, and bias screens.</p>
+<p class="flow-caption mono">Model promotion workflow</p>
+<ol class="flow">
+<li>Track experiments</li>
+<li>Run promotion checks</li>
+<li>Register a version</li>
+</ol>
+</div></details>
+</div></article>
+</div>
+<div class="additional-work" id="projects">
+<h3>Computer vision projects</h3>
+<div class="additional-work-grid">
+<article class="project additional-project"><div class="project-art"><svg aria-hidden="true" viewbox="0 0 260 130" fill="none"><g stroke="#8a907b"><path d="m45 48 61-22 60 22-60 23zM45 65l61 22 60-22M45 82l61 22 60-22M166 48l43 17-43 17" stroke-dasharray="4 4"></path><path d="M106 71v33"></path></g><g stroke="var(--project-ink, var(--accent))"><path d="m45 48 61 23 60-23-60-22z"></path><path d="m71 48 35-13 35 13-35 13z"></path><circle cx="209" cy="65" r="11"></circle><path d="M209 60v10m-5-5h10"></path></g></svg></div>
+<div class="project-body">
+<p class="eyebrow mono">OBJECT DETECTION &amp; DEPTH ESTIMATION</p>
+<h4>Gaze-based object detection</h4>
+<p>Combined monocular depth estimation with Mask R-CNN to identify objects and estimate their distance. The prototype processed 720p input at approximately 10 frames per second.</p>
+<a class="text-link" href="https://github.com/Girish16/Depth-Estimation">View the project on GitHub <svg aria-hidden="true" viewbox="0 0 20 20" width="18" height="18" fill="none"><path d="M5 15 15 5M6 5h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+</div></article><article class="project additional-project"><img class="project-image" src="anterior%20tiabilis.jpg" alt="Tibialis anterior ultrasound used in the muscle force prediction project" loading="lazy"><div class="project-body">
+<p class="eyebrow mono">DEEP LEARNING</p>
+<h4>Muscle force prediction</h4>
+<p>Developed a convolutional LSTM model to estimate muscle force from ultrasound images. The original experiment reported 98% accuracy.</p>
+</div></article>
+</div>
+</div></section><section class="experience-band" id="experience"><div class="shell section experience">
+<div>
+<div class="section-heading">
+<p class="eyebrow mono"><span>02</span> / EXPERIENCE</p>
+<h2>The work<br><em>behind the work.</em>
+</h2>
+</div>
+<p class="section-intro">I’ve worked on both sides of deployment, building models and data pipelines, then diagnosing failures in live systems.</p>
+<a class="text-link" href="https://www.linkedin.com/in/jalasutram-girish-kalyan/">View LinkedIn <svg aria-hidden="true" viewbox="0 0 20 20" width="18" height="18" fill="none"><path d="M5 15 15 5M6 5h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+</div>
+<div>
+<ol class="timeline">
+<li>
+<p class="mono period">JUL 2026 — PRESENT</p>
+<h3>Data Engineering at BMO</h3>
+<p class="org">Application Support Analyst · Unisys engagement</p>
+<ul class="role-description role-responsibilities">
+<li>Support banking data pipelines that synchronize customer and account records across source systems and downstream platforms.</li>
+<li>Use SQL to reconcile source and target records and identify missing, duplicate, or incorrectly mapped data.</li>
+<li>Trace integration failures across REST APIs, Kafka topics, and message queues using logs and correlation IDs.</li>
+<li>Support production releases and data remediation. Verify affected records and confirm downstream processing after fixes.</li>
+</ul>
+</li>
+<li>
+<p class="mono period">DEC 2024 — MAY 2026</p>
+<h3>Data / ML Engineer</h3>
+<p class="org">Freelance</p>
+<p class="role-description">Evaluated LLM outputs for coding and analytical tasks, built and reviewed evaluation datasets in Python, and supported data pipeline quality checks.</p>
+</li>
+<li>
+<p class="mono period">MAY 2022 — AUG 2024</p>
+<h3>Data Scientist / Machine Learning Engineer</h3>
+<p class="org">Kagool · Microsoft Partner</p>
+<p class="role-description">Built retrieval and model lifecycle tools, worked on enterprise ELT with Spark and Azure Data Factory, and integrated ML with mixed reality for sports analysis. I also helped design Xenial, a no-code object classification product, and delivered mixed reality projects using HoloLens 2.</p>
+</li>
+</ol>
+<div class="education" id="education">
+<p class="eyebrow mono">EDUCATION</p>
+<p><strong>MSc, Artificial Intelligence &amp; Machine Learning</strong><br>University of Birmingham</p>
+<p><strong>MBA, International Business</strong><br>Trinity Western University</p>
+<p><strong>BTech, Electronics &amp; Communication Engineering</strong><br>National Institute of Technology, Surat</p>
+</div>
+</div>
+</div></section><section class="shell section research" id="research"><div class="section-heading">
+<p class="eyebrow mono"><span>03</span> / RESEARCH INTERESTS</p>
+<h2>Start with <em>a baseline.</em>
+</h2>
+</div>
+<div class="research-card">
+<div class="research-content">
+<p class="eyebrow mono"><span class="status-dot"></span> INDEPENDENT EXPERIMENT</p>
+<h3>Classical and quantum ML for phishing detection</h3>
+<p>I’m exploring whether a quantum kernel adds value for phishing detection. I started with a classical RBF-SVM, trained on 8,844 examples and evaluated on 2,211 held-out examples.</p>
+<p>For the next experiment, I plan to run both methods on the same smaller data split and feature set, then report precision, recall, and runtime alongside accuracy.</p>
+</div>
+<div class="research-stat">
+<span class="mono">CLASSICAL RBF-SVM</span><strong>91.95<span>%</span></strong><span class="mono">BASELINE TEST ACCURACY</span><span class="research-count">11,055 dataset examples</span>
+</div>
+</div></section><section class="shell contact" id="contact"><div class="contact-inner">
+<div>
+<p class="eyebrow mono"><span>04</span> / CONTACT</p>
+<h2>Let’s <em>talk.</em>
+</h2>
+<p>I’m open to applied ML, MLOps, and data engineering roles in Canada, especially in financial services.</p>
+</div>
+<div class="contact-actions">
+<a class="button primary" href="mailto:girish.jalasutram@gmail.com">Email Girish <svg aria-hidden="true" viewbox="0 0 20 20" width="18" height="18" fill="none"><path d="M5 15 15 5M6 5h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a><div>
+<a class="text-link" href="https://www.linkedin.com/in/jalasutram-girish-kalyan/">LinkedIn <svg aria-hidden="true" viewbox="0 0 20 20" width="18" height="18" fill="none"><path d="M5 15 15 5M6 5h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a><a class="text-link" href="https://github.com/Girish16">GitHub <svg aria-hidden="true" viewbox="0 0 20 20" width="18" height="18" fill="none"><path d="M5 15 15 5M6 5h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+</div>
+</div>
+</div></section></main><footer class="shell footer"><a href="#top" class="brand"><span class="brand-mark"><svg aria-hidden="true" viewbox="0 0 24 24" width="13" height="13"><path fill="currentColor" d="M12 0l2.5 9.5L24 12l-9.5 2.5L12 24l-2.5-9.5L0 12l9.5-2.5z"></path></svg></span><span>Girish Kalyan Jalasutram</span></a><a href="#top" class="mono back-top">BACK TO TOP <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>
