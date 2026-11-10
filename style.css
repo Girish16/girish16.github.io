@@ -240,3 +240,53 @@ section[id] { scroll-margin-top: 24px; }
   .additional-work { margin-top: 29px; }
   .additional-work-grid { grid-template-columns: 1fr; gap: 13px; }
 }
+
+.map-route { stroke-dasharray: 1 1.8; }
+@media (prefers-reduced-motion: no-preference) {
+  .map-route { animation: trace-map 1.5s ease-out; }
+  @keyframes trace-map {
+    from { stroke-dasharray: 100 100; stroke-dashoffset: 100; }
+    to { stroke-dasharray: 100 100; stroke-dashoffset: 0; }
+  }
+}
+.map-stop-pin { fill: #f8f6ec; stroke: var(--accent); stroke-width: 1.5; }
+.map-stop-number { fill: var(--accent); pointer-events: none; }
+.map-stop-caption { fill: #294736; }
+.map-stop:hover .map-stop-pin, .map-stop:focus-visible .map-stop-pin { fill: var(--accent); }
+.map-stop:hover .map-stop-number, .map-stop:focus-visible .map-stop-number { fill: #fffdf8; }
+.map-stop:hover .map-stop-caption, .map-stop:focus-visible .map-stop-caption { text-decoration: underline; }
+.project[id] { scroll-margin-top: 24px; }
+.project:target { outline: 2px solid var(--accent); outline-offset: 3px; }
+.quantum-lab { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 18px; padding: 26px 30px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.quantum-lab h3 { margin-top: 7px; font-size: clamp(24px, 3vw, 33px); letter-spacing: -.04em; }
+.quantum-lab-intro > p:not(.eyebrow) { max-width: 390px; margin-top: 9px; color: var(--muted); font-size: 15px; line-height: 1.55; }
+.quantum-lab .text-link { margin-top: 7px; }
+.quantum-controls { min-width: 0; margin: 0; padding: 0; border: 0; }
+.quantum-controls legend { margin-bottom: 6px; padding: 0; font-size: 13px; font-weight: 700; }
+.quantum-controls input { position: absolute; width: 1px; height: 1px; clip-path: inset(50%); }
+.quantum-controls label { display: inline-block; margin: 0 4px 5px 0; padding: 7px 10px; border: 1px solid #bac7b6; border-radius: 6px; color: var(--accent); font-size: 13px; cursor: pointer; }
+.quantum-controls input:checked + label { border-color: var(--accent); background: var(--accent); color: #fffdf8; }
+.quantum-controls input:focus-visible + label { outline: 2px solid var(--accent-strong); outline-offset: 3px; }
+.quantum-wire { display: flex; align-items: center; justify-content: space-between; position: relative; isolation: isolate; margin: 8px 0 12px; color: var(--accent); font: 650 14px var(--mono); }
+.quantum-wire::before { content: ""; position: absolute; z-index: -1; inset-inline: 0; top: 50%; border-top: 1px solid #a1ad9a; }
+.quantum-ket, .quantum-measure { padding: 4px 7px; background: var(--surface); }
+.quantum-gate { visibility: hidden; display: grid; width: 32px; height: 32px; place-items: center; border: 1px solid var(--accent); border-radius: 6px; background: var(--sage); }
+#quantum-hadamard:checked ~ .quantum-wire .quantum-gate { visibility: visible; }
+.quantum-probabilities { color: var(--muted); }
+.quantum-probabilities > p { font-size: 9px; }
+.quantum-probabilities dl { display: grid; gap: 4px; margin: 7px 0 0; }
+.quantum-outcome, .quantum-outcome dd { display: flex; align-items: center; gap: 9px; }
+.quantum-outcome { font: 600 12px var(--mono); }
+.quantum-outcome dd { flex: 1; margin: 0; }
+.quantum-outcome dd > span:not(.quantum-bar) { min-width: 4ch; text-align: right; }
+.quantum-bar { flex: 1; height: 7px; overflow: hidden; border-radius: 9px; background: var(--linen); }
+.quantum-bar::before { display: block; width: var(--probability); height: 100%; content: ""; background: var(--accent); transition: width .26s ease; }
+.outcome-zero { --probability: 100%; }
+.outcome-one { --probability: 0%; }
+.outcome-one .quantum-bar::before { background: var(--clay); }
+.quantum-after, #quantum-hadamard:checked ~ .quantum-probabilities .quantum-before { display: none; }
+#quantum-hadamard:checked ~ .quantum-probabilities .quantum-after { display: inline; }
+#quantum-hadamard:checked ~ .quantum-probabilities .quantum-outcome { --probability: 50%; }
+@media (max-width: 640px) {
+  .quantum-lab { grid-template-columns: 1fr; gap: 18px; padding: 21px 18px; }
+}
