@@ -1,9 +1,8 @@
 var typed = new Typed(".typewriter-text", {
     strings: [
-        "Developer",
-        "Designer",
-        "Freelancer",
-        "Blogger"
+        "Applied ML Engineer",
+        "Data Engineering Practitioner",
+        "MLOps Practitioner"
     ],
     typeSpeed: 75,        // Typing speed reduced for smoother effect
     backSpeed: 50,        // Backspacing speed
